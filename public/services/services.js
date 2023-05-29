@@ -1,7 +1,7 @@
 
 class Services {
     constructor(url, spaceShipEndpoint, planetEndpoint) {
-      this.url = 'http://localhost:5000';
+      this.url = 'https://space-transporter.onrender.com';
       this.planetEndpoint = `/api/planets`;
       this.spaceShipEndpoint = `/api/spaceship`;
       this.apiPassengersToShipEndpoint = `/api/passengers/toship`;
